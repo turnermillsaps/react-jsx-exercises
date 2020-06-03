@@ -7,9 +7,13 @@ let Article = () => {
 let Footer = () => {
     return <span>Design a footer for your blog</span>
 }
-
+  
 let Blog = () => {
-    return <span>Make this Component render the header, article, and footer</span>
+    return <span>
+      <Header />
+      <Article />
+      <Footer />
+    </span>
 }
 
 
